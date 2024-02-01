@@ -1,0 +1,327 @@
+
+.skip1{
+    padding: 35px;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+#post-input {
+    flex: 1; /* Allow the input field to take up remaining space */
+    margin-right: 10px; /* Add some spacing between input and button */
+}
+
+#post-form button {
+    background-color: #00ccff;
+    color: #fff;
+    border: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.img-container {
+    position: relative;
+}
+
+.img-container a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.sticky-footer {
+    font-size: small;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333; /* Set your desired background color */
+    color: #737373; /* Set your desired text color */
+    padding: 10px; /* Adjust padding as needed */
+}
+
+.post {
+    border: 1px solid #ccc; /* Add a border around the post */
+    padding: 10px; /* Add padding to create spacing around the content */
+    margin: 10px 0; /* Add margin to create spacing between posts */
+    background-color: #333; /* Set a background color for the post */
+    box-shadow: 5px 10px 5px rgba(0, 0, 0, 1); /* Add a subtle shadow for depth */
+    border-radius: 5px; /* Round the corners of the post */
+}
+.post-container {
+    max-width: 1000px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+.icon {
+    position: relative;
+    bottom: 6px;
+    vertical-align: top; /* Align the image vertically in the middle of the line */
+    width: 3%;
+    height: 3%;
+}
+
+#sidebar {
+    width: 20px;
+    height: 100%;
+    position: fixed;
+    background-color: #333333ae;
+    color: #fff;
+    right: 0;
+    transition: 0.3s;
+}
+
+#sidebar:hover {
+    transition: 0.3s;
+    font-family: Arial, sans-serif;
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    background-color: #333333ae;
+    color: #fff;
+    right: 0;
+}
+
+#sidebar a {
+        color: #33333300;
+        transition: 0s;
+}
+/* Add some style for better look and feel */
+#sidebar:hover a {
+    padding: 8px; 
+    text-decoration: none;
+    font-size: 18px;
+    color: #ffffff;
+    display: block;
+    transition: 0.5s;
+}
+
+#sidebar:hover a:hover {
+    color: #ff7300;
+}
+
+body {
+    background-color: #222;
+    margin: 0px;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+.container {
+max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+body a {
+    color: #00ccff;
+    text-decoration: none;
+}
+body a:hover {
+    text-decoration: underline;
+}
+
+/*login*/
+
+.title {
+    font-size: x-large;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.container2 {
+    background-image: url(Imagens/bkg1.jpg);
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-size: cover;
+    background-position: center -270px;
+    background-repeat: no-repeat;
+    }
+
+.log-cont {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 5px;
+}
+
+.btn {
+    width: 200px;
+    margin: 0 auto;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    width: 200px;
+    margin: 0 auto;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(130, 130, 130);
+    transition: 0.5s;
+}
+
+.lembrar {
+    font-size: small;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.registrar {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+/*outros*/
+
+.container3 {
+    background-color: #222;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-size: cover;
+    background-position: center -270px;
+    background-repeat: no-repeat;
+    }
+
+    
+.skip2{
+    padding: 20px;
+}
+
+.status-failed {
+    color: rgb(255, 0, 0);
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.newsletter {
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #5a583d;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    max-width: fit-content;
+    margin: 0 auto;
+    padding: 20px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url(Imagens/news2.jpg);
+    }
+
+.img-shadow{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    background-color: #222222d2;
+    padding: 15px;
+    margin: 5px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.sub-title {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-weight: bold;
+    padding: 3px;
+}
+
+.container4 {
+    background-image: url(Imagens/newsletter.jpg);
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 10px;
+    background-size: cover;
+    background-position: center -270px;
+    background-repeat: no-repeat;
+    
+}
+
+/*flexbox teste*/
+
+.container-colunas {
+    background-image: url(Imagens/newsletter.jpg);
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 10px;
+    background-size: cover;
+    background-position: center -270px;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2px;
+    height: 600px;
+}
+
+.coluna {
+    display: flex;
+    justify-content: center; /* Horizontally center */
+    align-items: center; /* Vertically center */
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.revista {
+    position: relative;
+    width: 360px;
+    background-color: rgba(0, 0, 0, 0.64);
+    padding: 5px;
+    transition: 0.3s;
+}
+
+.revista:hover {
+    width: 380px;
+    background-color: rgba(0, 0, 0, 0.64);
+    padding: 2px;
+    transition: 0.3s;
+}
