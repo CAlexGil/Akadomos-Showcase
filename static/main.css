@@ -253,6 +253,7 @@ body a:hover {
     max-width: 310px;
     margin: 0 auto;
     padding-left: 20px;
+    padding-right: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
     background-size: cover;
@@ -325,7 +326,7 @@ body a:hover {
 
 /*flexbox teste*/
 
-.container-colunas {
+.container-colunasnl {
     background-image: url(Imagens/newsletter.jpg);
     border: 2px solid #ccc;
     border-radius: 20px;
@@ -339,6 +340,21 @@ body a:hover {
     grid-template-columns: 1fr 1fr;
     gap: 2px;
     height: 600px;
+}
+
+.container-colunas {
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 10px;
+    background-size: cover;
+    background-position: center -270px;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2px;
+    height: auto;
 }
 
 .coluna {
