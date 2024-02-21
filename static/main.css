@@ -353,7 +353,7 @@ body a:hover {
     background-repeat: no-repeat;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 2px;
+    gap: 4px;
     height: auto;
 }
 
