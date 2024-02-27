@@ -361,10 +361,11 @@ body a:hover {
     display: flex;
     justify-content: center; /* Horizontally center */
     align-items: center; /* Vertically center */
-    padding: 20px;
-    border: 1px solid #ccc;
+    padding: 20px;  /* Retirei a borda, eh so colocar dnv */
     box-sizing: border-box;
 }
+
+
 
 .revista {
     position: relative;
