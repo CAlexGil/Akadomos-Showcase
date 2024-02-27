@@ -361,7 +361,7 @@ body a:hover {
     display: flex;
     justify-content: center; /* Horizontally center */
     align-items: center; /* Vertically center */
-    padding: 20px;  /* Retirei a borda, eh so colocar dnv */
+    padding: 20px;  /* Retirei a borda, eh so colocar dnvv */
     box-sizing: border-box;
 }
 
