@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Handstone Gang Futebol Clube - HGFC</title>
+    <link rel="stylesheet" type="text/css" href="static/main.css">
+    <link rel="icon" type="image/x-icon" href="static/Imagens/favicon.ico">
+    <title>Akadomos</title>
+    <style>
+        body {
+            background-color: #222;
+            color: #fff;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+	    max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        a {
+            color: #00ccff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        /* Estilos Básicos */
+
+        /* Cabeçalho */
+        header {
+            background-color: #1a1a1a;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .logo-placeholder {
+            width: 120px;
+            height: 120px;
+            background-color: #444;
+            border-radius: 50%;
+            margin: 0 auto 15px auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 14px;
+            color: #ccc;
+            border: 3px solid #fff;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        /* Redes Sociais */
+        .social-links {
+            margin-top: 15px;
+        }
+
+        .social-links a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+            padding: 8px 15px;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+
+        .social-links a.youtube { background-color: #ff0000;border: 2px solid #ffbb00; }
+        .social-links a.twitch { background-color: gray; }
+        .social-links a.instagram { background-color: gray; }
+        
+        .social-links a:hover {
+            opacity: 0.8;
+        }
+
+        /* Container Principal */
+        .container {
+            max-width: 1000px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+
+        /* Seções */
+        section {
+            background: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            border-bottom: 2px solid #1a1a1a;
+            padding-bottom: 10px;
+            color: #1a1a1a;
+        }
+
+        /* Notícias e Jogos */
+        .card {
+            background: #f9f9f9;
+            border-left: 5px solid #1a1a1a;
+            padding: 15px;
+            margin-bottom: 15px;
+        }
+
+        .card h3 {
+            margin-top: 0;
+        }
+
+        .date {
+            font-size: 0.9em;
+            color: #666;
+            margin-bottom: 10px;
+            display: block;
+        }
+
+        /* Grid de Uniformes (Para quando enviar as fotos) */
+        .kits-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            text-align: center;
+        }
+
+        .kit-item {
+            background: #eee;
+            padding: 20px;
+            border-radius: 8px;
+            min-height: 150px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        /* Rodapé */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #1a1a1a;
+            color: #fff;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div id="sidebar">
+        <a href="">Pagina Inicial</a>
+        <a href="#">Seu Perfil</a>
+        <a href="#">Configurações</a>
+        <a href="">Sair</a>
+    </div>
+
+    <div class="img-container">
+        <a href="index.html">
+            <img src="static/Imagens/logoalt1.png" alt="Logo do Akadomos" width="140" height="140">
+        </a>
+    </div>
+    <header>
+        <!-- ESPAÇO PARA O ESCUDO DO CLUBE -->
+        <div class="logo-placeholder" id="escudo">
+            
+            <img src="static\Imagens\Escudo1.png" alt="Escudo HGFC" width="100">
+        </div>
+        
+        <h1>Handstone Gang F.C.</h1>
+
+        <div class="social-links">
+            <a href="https://www.youtube.com/channel/UCJOYtYaOdiF1j84_mfQWCYg" target="_blank" class="youtube">YouTube</a>
+            <a href="LINK_DA_TWITCH" target="_blank" class="twitch">Twitch</a>
+            <a href="LINK_DO_INSTAGRAM" target="_blank" class="instagram">Instagram</a>
+        </div>
+    </header>
+
+    <div class="container">
+    
+        <section id="jogos">
+            <h2>Próximos Jogos</h2>
+            
+            <div class="card">
+                <h3>HGFC vs. HGFC2</h3>
+                <span class="date">🗓️ 1 de Agosto de 2026 | ⏰ 14:00 | 🏟️ Arena Handstone</span>
+                <p>Amistoso entre os jogadores da HGFC.</p>
+            </div>
+        </section>
+        <!-- Seção de Notícias -->
+        <section id="noticias">
+            <h2>Últimas Notícias</h2>
+            
+            <div class="card">
+                <h3></h3>
+                <span class="date">30 de Julho de 2026</span>
+                <p></p>
+            </div>
+            
+            <div class="card">
+                <h3></h3>
+                <span class="date">28 de Julho de 2026</span>
+                <p></p>
+            </div>
+        </section>
+
+
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Handstone Gang Futebol Clube. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
